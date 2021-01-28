@@ -29,6 +29,8 @@ h2{
     position: absolute;
     left: 20px;
     top: 20px;
+    width: 32px;
+    height: 32px;
     background: none;
     border: none;
 }
@@ -124,4 +126,33 @@ vertical-align: middle;
   
   #main_footer .info {
     margin-bottom: 18px;
+  }
+  /* 메인메뉴 */
+  #gnb{
+      width: 300px;
+      height: 100%;
+      position: fixed;
+      left: 0;
+      top: 0;
+      background: #fff;
+      z-index: 999;
+      box-shadow: 2px 0px 6px rgba(0,0,0,0.5);
+      display:none;
+  }
+  #gnb>div{
+    height: 68px;
+  }
+  #gnb .btn_close{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    width: 32px;
+    height: 32px;
+    background: none;
+    border: none;
+  }
+  #gnb>ul>li{
+    padding: 10px 20px;
+    text-align: left;
+    font-weight: 500;
   }
