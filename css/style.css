@@ -102,12 +102,10 @@ vertical-align: middle;
     padding-left: 20px;
     padding-right: 20px;
   }
-  
   #main_footer .sns img{
     margin-left: 13px;
     margin-right: 13px;
   }
-  
   #main_footer .tel {
     font-size: 18px;
     font-weight: bold;
@@ -123,7 +121,6 @@ vertical-align: middle;
     font-size: 12px;
     font-weight: 400;
   }
-  
   #main_footer .info {
     margin-bottom: 18px;
   }
@@ -155,4 +152,18 @@ vertical-align: middle;
     padding: 10px 20px;
     text-align: left;
     font-weight: 500;
+  }
+  .slider{
+    width: 100%;
+    position: relative;
+    padding-top: 161.35%;
+  }
+  .slider > img{
+    position: absolute;
+    left: 0; top: 0;
+    opacity: 0;
+    transition-duration: 1s;
+  }
+  .slider > img.show{
+      opacity: 1;
   }
